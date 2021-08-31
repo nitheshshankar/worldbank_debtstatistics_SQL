@@ -24,7 +24,7 @@ LIMIT 1;
 
 SELECT indicator_code AS debt_indicator, 
 indicator_name, AVG(debt) AS average_debt
-FROM international_debt
+FROM debtdata
 GROUP BY debt_indicator, indicator_name ORDER BY average_debt DESC
 
 #6 Highest Amount of principal Payments
