@@ -48,6 +48,6 @@ LIMIT 1;
 
 SELECT country_name,indicator_name,indicator_code, debt
 FROM debtdata
-GROUP by country_name, indicator_code, indicator_name, debt
+GROUP BY country_name, indicator_code, indicator_name, debt
 ORDER BY debt DESC
 LIMIT 10; 
